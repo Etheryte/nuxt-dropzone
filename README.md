@@ -8,7 +8,7 @@ A Nuxt SSR-compatible [Dropzone](http://www.dropzonejs.com/) component, internal
 
 ## Usage
 
-See the demo project.
+See [the demo project](https://github.com/Etheryte/nuxt-dropzone/tree/master/demo).
 
 ```html
 <template>
