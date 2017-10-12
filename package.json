@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-dropzone",
+  "version": "1.0.0-rc11",
+  "description": "Nuxt SSR-compatible Dropzone component",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etheryte/nuxt-dropzone.git"
+  },
+  "author": "Etheryte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Etheryte/nuxt-dropzone/issues"
+  },
+  "homepage": "https://github.com/Etheryte/nuxt-dropzone#readme",
+  "dependencies": {
+    "vue2-dropzone": "^2.3.6"
+  }
+}

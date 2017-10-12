@@ -1,0 +1,15 @@
+{
+  "name": "nuxt-dropzone-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Etheryte",
+  "license": "MIT",
+  "scripts": {
+    "nuxt": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0-rc11",
+    "nuxt-dropzone": "^1.0.0-rc11"
+  }
+}
