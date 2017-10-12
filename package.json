@@ -1,6 +1,6 @@
 {
   "name": "nuxt-dropzone",
-  "version": "1.0.0-rc11",
+  "version": "0.1.0",
   "description": "Nuxt SSR-compatible Dropzone component",
   "main": "index.js",
   "repository": {
