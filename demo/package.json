@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "nuxt": "^1.0.0-rc11",
-    "nuxt-dropzone": "^0.1.4"
+    "nuxt-dropzone": "^0.1.6"
   }
 }
