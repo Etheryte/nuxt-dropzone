@@ -1,5 +1,5 @@
 <template>
-	<dropzone id="foo" :url="'http://httpbin.org/anything'">
+	<dropzone id="foo" url="http://httpbin.org/anything">
 	</dropzone>
 </template>
 <script>

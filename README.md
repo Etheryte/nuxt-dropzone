@@ -12,7 +12,7 @@ See [the demo project](https://github.com/Etheryte/nuxt-dropzone/tree/master/dem
 
 ```html
 <template>
-  <dropzone id="foo" :url="'http://httpbin.org/anything'"></dropzone>
+  <dropzone id="foo" url="http://httpbin.org/anything"></dropzone>
 </template>
 ```
 ```js
