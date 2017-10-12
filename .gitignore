@@ -57,5 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
-# Nuxt
+# 
 .nuxt
+package-lock.json
