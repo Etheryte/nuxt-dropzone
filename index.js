@@ -18,4 +18,4 @@ component.render = function (createElement) {
 	}, this.$slots.default)
 }
 
-export default component
+module.exports = component
