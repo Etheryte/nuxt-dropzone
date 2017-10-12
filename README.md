@@ -10,18 +10,21 @@ A Nuxt SSR-compatible [Dropzone](http://www.dropzonejs.com/) component, internal
 
 See the demo project.
 
-	<template>
-		<dropzone id="foo" :url="'http://httpbin.org/anything'">
-		</dropzone>
-	</template>
-	<script>
-	import Dropzone from 'nuxt-dropzone'
+```html
+<template>
+  <dropzone id="foo" :url="'http://httpbin.org/anything'"></dropzone>
+</template>
+```
+```js
+<script>
+  import Dropzone from 'nuxt-dropzone'
 
-	export default {
-		components: {
-			Dropzone
-		}
-	}
-	</script>
+  export default {
+    components: {
+      Dropzone
+    }
+  }
+</script>
+```
 
 Alternatively, you can use `:use-custom-dropzone-options="true" :dropzone-options="dropzoneOptions"` and pass the options as an object, see [vue-dropzone docs](https://github.com/rowanwins/vue-dropzone#props).
