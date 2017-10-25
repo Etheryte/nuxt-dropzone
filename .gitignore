@@ -57,6 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
-# 
+# Misc ignores
 .nuxt
 package-lock.json
+dist/

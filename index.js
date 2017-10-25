@@ -1,4 +1,4 @@
-let component = {}
+var component = {}
 
 if (process.browser) {
 	component = require('vue2-dropzone')

@@ -6,10 +6,14 @@
   "author": "Etheryte",
   "license": "MIT",
   "scripts": {
-    "nuxt": "nuxt"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "serve": "serve dist"
   },
   "dependencies": {
     "nuxt": "^1.0.0-rc11",
-    "nuxt-dropzone": "^0.1.6"
+    "nuxt-dropzone": "^0.1.6",
+    "serve": "^6.3.1"
   }
 }
