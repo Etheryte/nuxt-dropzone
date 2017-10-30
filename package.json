@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/Etheryte/nuxt-dropzone#readme",
   "dependencies": {
-    "vue2-dropzone": "^2.3.6"
+    "vue2-dropzone": "3.0.0"
   }
 }

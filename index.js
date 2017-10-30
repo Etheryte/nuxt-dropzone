@@ -10,11 +10,9 @@ component.render = function (createElement) {
 		props: that.props,
 		attrs: {
 			class: 'vue-dropzone dropzone',
-			id: that.id || '',
-			action: that.url || '',
-			dropzoneOptions: that.dropzoneOptions,
-			useCustomDropzoneOptions: that.useCustomDropzoneOptions
-		}
+			id: that.id || ''
+		},
+		ref: 'dropzoneElement'
 	}, this.$slots.default)
 }
 
