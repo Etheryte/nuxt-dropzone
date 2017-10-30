@@ -40,7 +40,7 @@ export default {
 </script>
 ```
 
-Alternatively, you can use `:use-custom-dropzone-options="true" :dropzone-options="dropzoneOptions"` and pass the options as an object, see [vue-dropzone docs](https://github.com/rowanwins/vue-dropzone#props).
+See [the vue-dropzone docs](https://rowanwins.github.io/vue-dropzone/docs/dist/index.html#/props) for futher configuration information.
 
 ## Issues & contributing
 
