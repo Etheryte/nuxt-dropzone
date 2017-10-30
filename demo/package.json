@@ -14,8 +14,7 @@
   "dependencies": {
     "dropzone": "5.2.0",
     "nuxt": "1.0.0-rc11",
-    "nuxt-dropzone": "0.1.6",
-    "serve": "^6.3.1",
-    "vue2-dropzone": "^3.0.0"
+    "nuxt-dropzone": "0.2.0",
+    "serve": "^6.3.1"
   }
 }
