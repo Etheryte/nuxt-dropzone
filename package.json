@@ -1,6 +1,6 @@
 {
   "name": "nuxt-dropzone",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Nuxt SSR-compatible Dropzone component",
   "main": "index.js",
   "repository": {
@@ -16,5 +16,7 @@
   "dependencies": {
     "vue2-dropzone": "3.0.0"
   },
-  "files": ["dist"]
+  "files": [
+    "dropzone.css"
+  ]
 }
