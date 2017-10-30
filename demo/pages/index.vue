@@ -3,7 +3,7 @@
 </template>
 <script>
 import Dropzone from 'nuxt-dropzone'
-import 'vue2-dropzone/dist/vue2Dropzone.css'
+import 'nuxt-dropzone/dropzone.css'
 
 export default {
 	components: {
