@@ -60,4 +60,4 @@ typings/
 # Misc ignores
 .nuxt
 package-lock.json
-dist/
+demo/dist/
