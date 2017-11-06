@@ -6,7 +6,7 @@ if (process.browser) {
 component.name = 'dropzone'
 component.render = function (createElement) {
 	const that = this._self
-	return createElement('form', {
+	return createElement('div', {
 		props: that.props,
 		attrs: {
 			class: 'vue-dropzone dropzone',
