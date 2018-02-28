@@ -42,6 +42,10 @@ export default {
 
 See [the vue-dropzone docs](https://rowanwins.github.io/vue-dropzone/docs/dist/index.html#/props) for futher configuration information.
 
+## Common issues and solutions
+
+ * [Importing styles doesn't work with PostCSS out-of-the-box](https://github.com/Etheryte/nuxt-dropzone/issues/3)
+
 ## Issues & contributing
 
 Please file any issues under [Github issues](https://github.com/Etheryte/nuxt-dropzone/issues), be sure to include your Nuxt release version as well as [a minimal, complete, and verifiable example](https://stackoverflow.com/help/mcve).  
