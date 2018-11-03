@@ -42,7 +42,7 @@ export default {
 
 See [the vue-dropzone docs](https://rowanwins.github.io/vue-dropzone/docs/dist/index.html#/props) for futher configuration information.
 
-Now includes function call for aws s3 signing url
+Now includes function call for aws s3 signing url.
 
 ## Common issues and solutions
 
