@@ -42,6 +42,8 @@ export default {
 
 See [the vue-dropzone docs](https://rowanwins.github.io/vue-dropzone/docs/dist/index.html#/props) for futher configuration information.
 
+Now includes function call for aws s3 signing url
+
 ## Common issues and solutions
 
  * [Importing styles doesn't work with PostCSS out-of-the-box](https://github.com/Etheryte/nuxt-dropzone/issues/3)
