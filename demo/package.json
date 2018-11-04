@@ -14,7 +14,7 @@
   "dependencies": {
     "dropzone": "5.2.0",
     "nuxt": "1.0.0-rc11",
-    "nuxt-dropzone": "0.2.7",
-    "serve": "^6.3.1"
+    "nuxt-dropzone": "0.2.8",
+    "serve": "^10.0.2"
   }
 }
