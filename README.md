@@ -42,7 +42,7 @@ export default {
 
 See [the vue-dropzone docs](https://rowanwins.github.io/vue-dropzone/docs/dist/index.html#/props) for futher configuration information.
 
-[Direct AWS S3 ploads](https://rowanwins.github.io/vue-dropzone/docs/dist/#/aws-s3-upload) are also supported.
+[Direct AWS S3 uploads](https://rowanwins.github.io/vue-dropzone/docs/dist/#/aws-s3-upload) are also supported.
 
 ## Common issues and solutions
 
