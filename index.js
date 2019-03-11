@@ -1,7 +1,7 @@
 var component = {}
 
 if (process.browser) {
-    component = require('vue2-dropzone')
+    component = require('vue2-dropzone/dist/vue2Dropzone.js')
 }
 component.name = 'dropzone'
 component.render = function (createElement) {
