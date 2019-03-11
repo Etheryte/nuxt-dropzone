@@ -5,7 +5,7 @@ if (process.browser) {
 }
 component.name = 'dropzone'
 component.render = function (createElement) {
-    const that = this._self
+    var that = this._self
     return createElement('div', {
         props: that.props,
         attrs: {
