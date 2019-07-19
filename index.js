@@ -12,7 +12,7 @@ component.render = function (createElement) {
       id: that.id || ''
     },
     ref: 'dropzoneElement'
-  }, [this.useCustomSlot === "" || this.useCustomSlot === true ? createElement("div", {staticClass: "dz-message"}, [this._t("default", [this._v("Drop files here to upload")])], 2) : this._e()])
+  }, this.useCustomSlot === "" || this.useCustomSlot === true ? [createElement("div", {staticClass: "dz-message"}, this.$slots.default)] : this.$slots.default)
 };
 component.name = 'dropzone';
 
