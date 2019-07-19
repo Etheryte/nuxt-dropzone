@@ -13,7 +13,7 @@ component.render = function (createElement) {
             id: that.id || ''
         },
         ref: 'dropzoneElement'
-    }, this.$slots.default)
+    }, [this.useCustomSlot ? createElement("div", {staticClass: "dz-message"}, [this.$slots.default]) : this.$slots.default])
 }
 
 module.exports = component
