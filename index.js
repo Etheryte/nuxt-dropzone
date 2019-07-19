@@ -1,10 +1,10 @@
-let component = {};
+var component = {};
 component.props = ["useCustomSlot"];
 if (process.browser) {
   component = require('vue2-dropzone/dist/vue2Dropzone.js')
 }
 component.render = function (createElement) {
-  const that = this._self;
+  var that = this._self;
   return createElement('div', {
     props: that.props,
     attrs: {
@@ -16,4 +16,4 @@ component.render = function (createElement) {
 };
 component.name = 'dropzone';
 
-export default component;
+module.exports = component;
