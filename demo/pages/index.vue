@@ -1,5 +1,16 @@
 <template>
-    <dropzone id="foo" ref="el" :options="options" :destroyDropzone="true"></dropzone>
+    <div>
+        <!-- Regular Dropzone -->
+        <dropzone id="foo" ref="foo" :options="options" :destroyDropzone="true"></dropzone>
+
+        <!-- Using a custom slot -->
+        <dropzone id="bar" ref="bar" :options="options" :destroyDropzone="true" :useCustomSlot="true">
+            <div class="dropzone-custom-content">
+                <h3 class="dropzone-custom-title">Custom slot</h3>
+                <div class="subtitle">Subtitle</div>
+            </div>
+        </dropzone>
+    </div>
 </template>
 <script>
 import Dropzone from 'nuxt-dropzone'
@@ -19,7 +30,7 @@ export default {
     },
     mounted() {
         // Everything is mounted and you can access the dropzone instance
-        const instance = this.$refs.el.dropzone
+        const instance = this.$refs.foo.dropzone
     }
 }
 </script>
