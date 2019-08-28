@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Bug report
+about: If the component isn't working as indicated in the docs.
 title: ''
 labels: ''
 assignees: ''
