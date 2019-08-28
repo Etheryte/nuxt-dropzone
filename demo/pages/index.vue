@@ -7,7 +7,15 @@
         <dropzone id="bar" ref="bar" :options="options" :destroyDropzone="true" :useCustomSlot="true">
             <div class="dropzone-custom-content">
                 <h3 class="dropzone-custom-title">Custom slot</h3>
-                <div class="subtitle">Subtitle</div>
+                <p class="subtitle">Subtitle</p>
+            </div>
+        </dropzone>
+
+        <!-- No default styling -->
+        <dropzone id="tea" ref="tea" :options="options" :destroyDropzone="true" :useCustomSlot="true" :include-styling="false">
+            <div class="dropzone-custom-content">
+                <h3 class="dropzone-custom-title">No default styling</h3>
+                <p class="subtitle">Subtitle</p>
             </div>
         </dropzone>
     </div>
