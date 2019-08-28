@@ -7,5 +7,5 @@ assignees: ''
 
 ---
 
-**Describe your request**
-A clear and concise description of what you would like to happen.
+**Describe your request:**
+A clear and concise description of what you would like to see added or changed.
