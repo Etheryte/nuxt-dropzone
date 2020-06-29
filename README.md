@@ -47,6 +47,7 @@ See [the vue-dropzone docs](https://rowanwins.github.io/vue-dropzone/docs/dist/i
 ## Common issues and solutions
 
  * [Importing styles doesn't work with PostCSS out-of-the-box](https://github.com/Etheryte/nuxt-dropzone/issues/3)
+ * [IE support](https://github.com/Etheryte/nuxt-dropzone/issues/17)
 
 ## Issues & contributing
 
